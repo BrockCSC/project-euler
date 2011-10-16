@@ -65,4 +65,6 @@ Your solution can be:
 * obfuscated code or coded using your favourite style guide
 * crazily complex or super simple
 * instructions for a person or instructions for a computer
-* ...etc
+* ... and so on
+
+No matter how you choose to solve a problem, try to have fun and learn something new :-)
