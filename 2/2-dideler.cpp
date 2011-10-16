@@ -10,16 +10,14 @@ using namespace std;
 
 int main()
 {
-	unsigned long int fib=0, fibMinOne=1, fibMinTwo=0, sum=0;
-	while(fib < 4000000 ) // we start with fib(2), fib(1) is not even, so we do not start sum at 1
-	{
-		fib = fibMinOne + fibMinTwo;
-		fibMinTwo = fibMinOne;
-		fibMinOne = fib;
-		if(!(fib&1)) sum += fib; // add the even-valued term to the sum
-
-	}
-	cout << sum << endl;
-	return 0;
+  unsigned long int fib=0, fibMinOne=1, fibMinTwo=0, sum=0;
+  while(fib < 4000000 ) // we start with fib(2), fib(1) is not even, so we do not start sum at 1
+  {
+    fib = fibMinOne + fibMinTwo;
+    fibMinTwo = fibMinOne;
+    fibMinOne = fib;
+    if(!(fib&1)) sum += fib;
+  }
+  cout << sum << endl;
+  return 0;
 }
-

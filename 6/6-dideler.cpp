@@ -6,13 +6,13 @@
 #include <cstdio>
 int main()
 {
-	unsigned int sumOfSquares=0, squareOfSum=0;
+  unsigned int sumOfSquares=0, squareOfSum=0;
   int max = 101;
   while (max --> 0)
-	{
-		sumOfSquares += max*max;
-		squareOfSum += max;
-	}
-	squareOfSum *= squareOfSum;
-	printf("%d\n", squareOfSum-sumOfSquares);
+  {
+    sumOfSquares += max*max;
+    squareOfSum += max;
+  }
+  squareOfSum *= squareOfSum;
+  printf("%d\n", squareOfSum-sumOfSquares);
 }
