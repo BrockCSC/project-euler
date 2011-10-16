@@ -51,3 +51,18 @@ There are many ways to get started, this example is good if you're new to git.
     $ git add problem#/username.java  # say you made a java program
     $ git commit -m 'add my solution for problem #100'
     $ git push
+
+Closing comments
+----------------
+
+You're not writing an application, you're solving a problem for fun.
+So you can challenge yourself in any way you like.
+
+Your solution can be:
+* efficient or slow (there are no time constraints)
+* long or short
+* a dirty hack or the most elegant piece of code
+* obfuscated code or coded using your favourite style guide
+* crazily complex or super simple
+* instructions for a person or instructions for a computer
+* ...etc
