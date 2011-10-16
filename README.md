@@ -59,6 +59,7 @@ You're not writing an application, you're solving a problem for fun.
 So you can challenge yourself in any way you like.
 
 Your solution can be:
+
 * efficient or slow (there are no time constraints)
 * long or short
 * a dirty hack or the most elegant piece of code
