@@ -16,13 +16,14 @@ To prevent cheating (looking up the solution), Project Euler occasionally change
 How you can help us
 -------------------
 
-We want to solve as many unique problems as possible. We need your help to do so.
+We want to solve as many problems as possible. We need **your** help to do so!
 The list of problems is ever-growing as Project Euler is always adding new problems.
 
-If someone from our group has already solved a certain problem, please try to solve a different one.
-If you've already solved it or you really want to solve it, go ahead and upload your "solution"
-(it must be a method of finding the solution, not the solution itself).
-Though we would prefer having more unsolved problems become solved.
+When adding your solution, make sure it's a method of finding the solution and not the solution itself.
+
+If a problem is already solved, please try to solve a different one.
+
+For a good view of which problems have been solved, visit [brockcsc.github.com/projecteuler](http://brockcsc.github.com/projecteuler.html)
 
 
 Contribution guidelines
@@ -31,8 +32,8 @@ Contribution guidelines
 1. Do not change the work of others (but you can certainly add commit comments if you think their solution could be better)
 2. Do not submit solutions found by the work of others as your own (i.e. do not plagiarize)
 3. Follow naming conventions => Solutions are named after the problem # and your username and placed in the directory of their problem #
-  * e.g.) My solution to problem #1 would be located at `/project-euler/1/1-dideler.cpp`
-  * e.g.) John Doe also solved #1, his solution would be at `/project-euler/1/1-johndoe.txt  # John solved it by hand`
+  * e.g.) My solution to problem #1 would be located at `/project-euler/001/1-dideler.cpp`
+  * e.g.) John Doe also solved #1, his solution would be at `/project-euler/001/1-john.txt  # John solved it by hand`
   * Create a directory for your new problem if none exists
 
 Get started
@@ -48,7 +49,7 @@ There are many ways to get started, this example is good if you're new to git.
     $ git push -u origin master
     $ git fetch  # if you want to retrieve all the progress so far
     * work on a problem, e.g. problem 10 *
-    $ mkdir 10; cd 10  # create the directory for problem 10 (only if it didn't exist yet) and enter it
+    $ mkdir 010; cd 010  # create the directory for problem 10 (only if it didn't exist yet) and enter it
     $ vi 10-username.java  # start writing your program in vim - you can use netbeans, notepad++, whatever
     $ git add 10/10-username.java  # add it to the commit queue
     $ git commit -m 'add my solution for problem #10'
