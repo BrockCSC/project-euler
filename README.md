@@ -47,10 +47,12 @@ There are many ways to get started, this example is good if you're new to git.
     $ git remote add origin git@github.com:BrockCSC/project-euler.git
     $ git push -u origin master
     $ git fetch  # if you want to retrieve all the progress so far
-    * work on the problem *
-    $ git add problem#/username.java  # say you made a java program
-    $ git commit -m 'add my solution for problem #100'
-    $ git push
+    * work on a problem, e.g. problem 10 *
+    $ mkdir 10; cd 10  # create the directory for problem 10 (only if it didn't exist yet) and enter it
+    $ vi 10-username.java  # start writing your program in vim - you can use netbeans, notepad++, whatever
+    $ git add 10/10-username.java  # add it to the commit queue
+    $ git commit -m 'add my solution for problem #10'
+    $ git push  # push your work to github for others to see
 
 Closing comments
 ----------------
