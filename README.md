@@ -16,14 +16,15 @@ To prevent cheating (looking up the solution), Project Euler occasionally change
 How you can help us
 -------------------
 
-We want to solve as many problems as possible. We need **your** help to do so!
-The list of problems is ever-growing as Project Euler is always adding new problems.
+* We want to solve as many problems as possible. We need **your help** to do so!
 
-When adding your solution, make sure it's a method of finding the solution and not the solution itself.
+* The list of problems is ever-growing as Project Euler is always adding new problems.
 
-If a problem is already solved, please try to solve a different one.
+* When adding your solution, make sure it's a method of finding the solution and not the solution itself.
 
-For a good view of which problems have been solved, visit [brockcsc.github.com/projecteuler](http://brockcsc.github.com/projecteuler.html)
+* If a problem is already solved, please try to solve a different one.
+
+* For a good view of which problems have been solved, visit [brockcsc.github.com/projecteuler](http://brockcsc.github.com/projecteuler.html)
 
 
 Contribution guidelines
