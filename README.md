@@ -40,21 +40,20 @@ Contribution guidelines
 Get started
 -----------
 
-Example based on a command line interface.
-There are many ways to get started, this example is good if you're new to git.
+Example based on a command line interface (e.g. Bash on Linux, Git Bash on Windows, etc.)
+There are many ways to get started, this is one way:
 
-    $ mkdir project-euler
+    $ git clone git@github.com:BrockCSC/project-euler.git
     $ cd project-euler
-    $ git init
-    $ git remote add origin git@github.com:BrockCSC/project-euler.git
-    $ git push -u origin master
-    $ git fetch  # if you want to retrieve all the progress so far
-    * work on a problem, e.g. problem 10 *
-    $ mkdir 010; cd 010  # create the directory for problem 10 (only if it didn't exist yet) and enter it
-    $ vi 10-username.java  # start writing your program in vim - you can use netbeans, notepad++, whatever
-    $ git add 10/10-username.java  # add it to the commit queue
-    $ git commit -m 'add my solution for problem #10'
-    $ git push  # push your work to github for others to see
+    $ git remote add upstream git://github.com/BrockCSC/project-euler.git
+    $ git fetch upstream
+    * Say we want to work on problem 10 *
+    $ mkdir 010 # Create the directory for problem 10 if it doesn't exist yet
+    $ cd 010
+    * Start working on problem 10 (e.g. 10-username.java) *
+    $ git add .
+    $ git commit -m 'Add my solution for problem 10'
+    $ git push  # Your solution is now on GitHub!
 
 Closing comments
 ----------------
