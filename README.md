@@ -47,10 +47,10 @@ There are many ways to get started, this is one way:
     $ cd project-euler
     $ git remote add upstream git://github.com/BrockCSC/project-euler.git
     $ git fetch upstream
-    * Say we want to work on problem 10 *
-    $ mkdir 010 # Create the directory for problem 10 if it doesn't exist yet
+    * Let's work on problem 10 *
+    $ mkdir 010  # Create the directory for problem 10 if it doesn't exist yet
     $ cd 010
-    * Start working on problem 10 (e.g. 10-username.java) *
+    * Work on your solution. Go to the next step when you're done *
     $ git add .
     $ git commit -m 'Add my solution for problem 10'
     $ git push  # Your solution is now on GitHub!
