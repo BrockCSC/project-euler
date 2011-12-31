@@ -55,6 +55,11 @@ There are many ways to get started, this is one way:
     $ git commit -m 'Add my solution for problem 10'
     $ git push  # Your solution is now on GitHub!
 
+Resources
+---------
+* [Online Encyclopedia of Integer Sequences](http://oeis.org/) (find patterns in integer sequences)
+* [Wolfram Alpha](http://wolframalpha.com) (computational knowledge engine)
+
 Closing comments
 ----------------
 
