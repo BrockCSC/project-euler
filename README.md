@@ -1,4 +1,4 @@
-CSC vs Project Euler
+[CSC vs Project Euler](http://brockcsc.github.com/projecteuler.html)
 ====================
 
 What is Project Euler?
