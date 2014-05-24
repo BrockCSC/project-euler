@@ -41,8 +41,18 @@
       text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black;
     }
   </style>
+  <script type="text/javascript">
+    // TODO: Add the number of any problems you've solved to the solved_problems array.
+    var solved_problems = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 15, 16, 17, 23, 25, 30, 43, 48, 56];
+    function markSolved() {
+      for (var i in solved_problems) {
+        id = "p" + solved_problems[i];
+        document.getElementById(id).className = "solved";
+      }
+    }
+  </script>
 </head>
-<body>
+<body onload="markSolved();">
 
 <noscript>Uh oh, you'll need Javascript enabled to view the page properly.</noscript>
 
