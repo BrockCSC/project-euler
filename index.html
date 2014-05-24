@@ -69,11 +69,11 @@
   <center>
   <script type="text/javascript">
     // We want a cell to look like: <td id="p1"><a href="link">1</a></td>
-    var p = 1;
-    for (var r = 0; r < 20; ++r)
+    var p = 1, rows = 23, cols = 20;
+    for (var r = 0; r < rows; ++r)
     {
       document.write('<tr>');
-      for (var c = 0; c < 20; ++c, ++p)
+      for (var c = 0; c < cols; ++c, ++p)
       {
         document.write('<td id="p' + p + '"><a href="http://projecteuler.net/index.php?section=problems&id=' + p +'">' + p + '</a></td>');
       }
