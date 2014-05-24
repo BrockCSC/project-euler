@@ -56,12 +56,14 @@
 
 <noscript>Uh oh, you'll need Javascript enabled to view the page properly.</noscript>
 
-<a href="https://github.com/BrockCSC/project-euler"><img id="ribbon" src="images/ribbon.png" alt="View our solutions on GitHub"></a>
+<a href="https://github.com/BrockCSC/project-euler">
+  <img id="ribbon" src="images/ribbon.png" alt="View our solutions on GitHub">
+</a>
 
 <center>
   <h3>
-  <a href="http://www.projecteuler.net" target="_blank">Project Euler</a> problems solved by
-  <a href="http://brockcsc.ca"><img id="logo" src="images/csc.png"></a>
+    <a href="http://www.projecteuler.net" target="_blank">Project Euler</a> problems solved by
+    <a href="http://brockcsc.ca"><img id="logo" src="images/csc.png"></a>
   </h3>
 </center>
 
@@ -69,12 +71,11 @@
   <center>
   <script type="text/javascript">
     // We want a cell to look like: <td id="p1"><a href="link">1</a></td>
-    var p = 1, rows = 23, cols = 20;
-    for (var r = 0; r < rows; ++r)
-    {
+    var num_problems = 470  // Must be a multiple of 10.
+      , p = 1;
+    for (var row = 0; row < (num_problems / 10); ++row) {
       document.write('<tr>');
-      for (var c = 0; c < cols; ++c, ++p)
-      {
+      for (var col = 0; col < 10; ++col, ++p) {
         document.write('<td id="p' + p + '"><a href="http://projecteuler.net/index.php?section=problems&id=' + p +'">' + p + '</a></td>');
       }
       document.write('</tr>');
