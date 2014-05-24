@@ -1,0 +1,92 @@
+<html>
+<head>
+  <title>Brock CSC - Project Euler Stats</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <style type="text/css">
+    body
+    {
+      background-image: url(images/bg.png);
+      /*background: url(images/logo.png) no-repeat fixed 88%;*/
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: darkBlue;
+    }
+    h3 { font-size: 18px; }
+    img#logo {
+      position: relative;
+      top: 10;
+    }
+    img#ribbon {
+      position: absolute;
+      top: -1;
+      right: 0;
+      border: 0;
+    }
+    table { margin: auto; }
+    table#stats td
+    {
+      width: 30px;
+      height: 30px;
+      background-color: #FF9090;
+      text-align: center;
+      vertical-align: middle;
+    }
+    /* Problems that have been solved */
+    table#stats td#p1 {	background-color: #90FF90; }
+    table#stats td#p2 {	background-color: #90FF90; }
+    table#stats td#p3 {	background-color: #90FF90; }
+    table#stats td#p4 {	background-color: #90FF90; }
+    table#stats td#p5 {	background-color: #90FF90; }
+    table#stats td#p6 {	background-color: #90FF90; }
+    table#stats td#p7 {	background-color: #90FF90; }
+    table#stats td#p8 {	background-color: #90FF90; }
+    table#stats td#p9 {	background-color: #90FF90; }
+    table#stats td#p10 { background-color: #90FF90; }
+    table#stats td#p13 { background-color: #90FF90; }
+    table#stats td#p15 { background-color: #90FF90; }
+    table#stats td#p16 { background-color: #90FF90; }
+    table#stats td#p17 { background-color: #90FF90; }
+    table#stats td#p23 { background-color: #90FF90; }
+    table#stats td#p25 { background-color: #90FF90; }
+    table#stats td#p30 { background-color: #90FF90; }
+    table#stats td#p43 { background-color: #90FF90; }
+    table#stats td#p48 { background-color: #90FF90; }
+    table#stats td#p56 { background-color: #90FF90; }
+  </style>
+</head>
+<body>
+
+<noscript>Please enable client-side scripting (javascript).</noscript>
+
+<a href="https://github.com/BrockCSC/project-euler"><img id="ribbon" src="images/ribbon.png" alt="View our solutions on GitHub"></a>
+
+<center>
+  <h3>
+  <a href="http://www.projecteuler.net" target="_blank">Project Euler</a> problems solved by
+  <a href="http://brockcsc.ca"><img id="logo" src="images/csc.png"></a>
+  </h3>
+</center>
+
+<table border="0" cellspacing="5" cellpadding="3" id="stats">
+  <center>
+  <script type="text/javascript">
+    // We want a cell to look like: <td id="p1"><a href="link">1</a></td>
+    var p = 1;
+    for (var r = 0; r < 20; ++r)
+    {
+      document.write('<tr>');
+      for (var c = 0; c < 20; ++c, ++p)
+      {
+        document.write('<td id="p' + p + '"><a href="http://projecteuler.net/index.php?section=problems&id=' + p +'">' + p + '</a></td>');
+      }
+      document.write('</tr>');
+    }
+  </script>
+  </center>
+</table>
+
+</body>
+</html>
+
